@@ -13,4 +13,5 @@ fave_food1 = "sushi"
 fave_food2 = "pizza"
 print( "I love to eat {} and {}".format(fave_food1,fave_food2) ) # with .format()
 print( "I love to eat %s and %s" % (fave_food1,fave_food2) ) # with an f string
-
+#this line wont work in my python version because it was implemented after 
+# print(f"I Love to eat {fave_food1} and {fave_food2}")
